@@ -1,0 +1,20 @@
+/* 
+  MethodString.strings
+  JsonToModelFileDemo
+
+  Created by 刘学阳 on 2017/9/20.
+  Copyright © 2017年 刘学阳. All rights reserved.
+*/
+
+
+"method" = "\
++ (NSDictionary *)mj_replacedKeyFromPropertyName\
+{\
+    return @{@\"ID\":@\"id\",@\"desc\":@\"description\"};\
+}\n\
++ (NSDictionary *)mj_objectClassInArray\
+{\
+    return @{%@};\
+}
+"
+;
